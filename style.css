@@ -13,5 +13,9 @@ ul li{
     list-style: none;
 }
 
+main{
+    width: 1200px;
+    height: 700px;
+}
 
 
