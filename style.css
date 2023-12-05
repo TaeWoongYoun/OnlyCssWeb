@@ -13,6 +13,12 @@ ul li{
     list-style: none;
 }
 
+.logoBox{
+    width: 200px;
+    height: 100%;
+    background-color: blueviolet;
+}
+
 main{
     margin-left: 8%;
     width: 1200px;
@@ -26,6 +32,17 @@ header{
     background-color: red;
 }
 
+.noneBox{
+    width: 400px;
+    height: 100%;
+}
+
+nav{
+    width: 600px;
+    height: 100%;
+    background-color: rebeccapurple;
+}
+
 .imgSlide{
     width: 100%;
     height: 300px;
@@ -36,12 +53,42 @@ header{
     width: 100%;
     height: 250px;
     background-color: green;
+    display: flex;
+}
+
+.conBox{
+    width: 400px;
+    height: 100%;
+}
+
+.con1{
+    background-color: greenyellow;
+}
+
+.con2{
+    background-color: green;
+}
+
+.con3{
+    background-color: darkgreen;
 }
 
 footer{
     width: 100%;
     height: 80px;
     background-color: blue;
+    display: flex;
 }
 
+.copyright{
+    width: 800px;
+    height: 100%;
+    background-color: aqua;
+}
+
+.snsBox{
+    width: 200px;
+    height: 100%;
+    background-color: darkblue;
+}
 
