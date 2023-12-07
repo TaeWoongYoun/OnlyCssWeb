@@ -30,6 +30,7 @@ header{
     width: 100%;
     height: 70px;
     background-color: red;
+    display: flex;
 }
 
 .noneBox{
@@ -40,7 +41,45 @@ header{
 nav{
     width: 600px;
     height: 100%;
+    background-color: blueviolet;
+}
+
+.mainMenu > li {
+    font-size: 16px;
+    width:150px;
+    height:70px;
     background-color: rebeccapurple;
+    line-height: 70px; 
+    text-align: center;
+    float: left;
+    position: relative;
+}
+
+.subMenu{
+    width: 150px;
+    height: 70px ;
+    display:none;
+    position: absolute;
+    font-size:14px;
+    z-index: 1000;
+}
+
+.subMenu > li{
+    width: 150px;
+    height: 70px;
+}
+
+.mainMenu > li:hover > ul{
+    display:block;
+}
+
+.mainMenu > li > ul > li{
+    background-color: skyblue;
+    transition: all 1s;
+}
+
+.mainMenu > li > ul> li:hover {
+    background: orange;
 }
 
 .imgSlide{
