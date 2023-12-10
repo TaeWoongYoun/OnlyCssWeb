@@ -226,7 +226,27 @@ li{
     background-color: aliceblue;
 }
 
+.btnBox{
+    width: 120px;
+    height: 80px;
+    display: flex;
+    margin-top: 70px;
+}
 
+.btnBox > div{
+    margin-left: 20px;
+}
+/* 
+.btnBox > div:nth-child(1){
+    margin-left: 8px;
+} */
+
+.btnBox img{
+    width: 105px;
+    height: 70px;
+    border: #000000 1px solid;
+    cursor: pointer;
+}
 
 
 
