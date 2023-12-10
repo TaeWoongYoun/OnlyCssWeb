@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <input type="checkbox" name="I am modal" id="modal">
     <main>
         <header>
-            <div class="logoBox Hlogo">유럽</div>
+            <div class="logoBox Hlogo">유럽여행</div>
             <div class="noneBox"></div>
             <nav>
                 <ul class="mainMenu">
@@ -60,8 +61,12 @@
                 </div>
                 <div class="Notice">
                     <ul>
-                        <li><a href="#" class="N1">Notice1</a>
-                            <span class="N1">2023-11-02</span></li>
+                        <div class="main">
+                            <label for="modal" class="openBtn">
+                                <li><a href="#" class="N1">일정 공지</a>
+                                    <span class="N1">2023-11-02</span></li>
+                            </label>
+                        </div>
                         <li><a href="#" class="N2">Notice2</a>
                             <span class="N2">2023-11-01</span></li>
                         <li><a href="#" class="N1">Notice3</a>
@@ -83,7 +88,8 @@
                     <div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png" alt=""></div>
                 </div>
             </div>
-            <div class="conBox con3"></div>
+            <div class="conBox con3">
+            </div>
         </div>
         <footer>
             <div class="logoBox Flogo">Logo</div>
@@ -91,5 +97,11 @@
             <div class="snsBox">snsBox</div>
         </footer>
     </main>
+    <div class="modalBox">
+        <label for="modal" class="closeBtn">close</label>
+        <div class="text">
+            <p>2024-01-15 ~ 2024-01-24</p>
+        </div>
+    </div>
 </body>
 </html>
