@@ -257,7 +257,7 @@ li{
 }
 
 .con3{
-    background-color: aliceblue;
+    background: linear-gradient(to top, red, blue);
 }
 
 footer{
