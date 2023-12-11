@@ -123,29 +123,13 @@ nav{
     position: absolute;
     width: 4800px;
     height: 300px;
-    animation: 5s infinite linear window;
+    animation: 6s infinite linear window;
     display: flex;
 }
 
 li{
     width: 1200px;
     height: 300px;
-}
-
-.window > li:nth-child(1){
-    background-color: aquamarine;
-}
-
-.window > li:nth-child(2){
-    background-color: aqua;
-}
-
-.window > li:nth-child(3){
-    background-color: pink;
-}
-
-.window > li:nth-child(4){
-    background-color: aquamarine;
 }
 
 @keyframes window{
@@ -284,7 +268,15 @@ footer{
 .snsBox{
     width: 200px;
     height: 100%;
-    background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.snsBox img{
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
 }
 
 .modalBox{
