@@ -212,7 +212,6 @@ li{
     font-weight: 700;
 }
 
-
 .con2{
     background-color: aliceblue;
 }
@@ -227,10 +226,6 @@ li{
 .btnBox > div{
     margin-left: 20px;
 }
-/* 
-.btnBox > div:nth-child(1){
-    margin-left: 8px;
-} */
 
 .btnBox img{
     width: 105px;
