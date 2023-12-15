@@ -234,7 +234,7 @@ li{
 }
 
 .con3{
-    background: linear-gradient(to top, red, blue);
+    background: linear-gradient(to bottom, red, blue);
 }
 
 footer{
